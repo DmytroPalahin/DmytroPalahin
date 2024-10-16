@@ -9,6 +9,7 @@ I'm **Dimitri**, a Computer Science student with a passion for **Data Science** 
 
 <!-- [![Dimitri's github stats](https://github-readme-stats.vercel.app/api?username=DmytroPalahin)](https://github.com/DmytroPalahin) -->
 
+<!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DmytroPalahin)](https://github.com/DmytroPalahin/github-readme-stats) -->
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DmytroPalahin&layout=compact)](https://github.com/DmytroPalahin)
 
 ![](https://visitcount.itsvg.in/api?id=DmytroPalahin&icon=0&color=2 "Visitor Count")

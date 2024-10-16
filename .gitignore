@@ -1,0 +1,17 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore node_modules
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore all .env files
+.env
+
+# Ignore all .conda files
+.conda
+
+# Ignore all .vscode files
+.vscode
