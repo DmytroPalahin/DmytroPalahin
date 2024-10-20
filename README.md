@@ -12,8 +12,9 @@ I'm **Dimitri**, a Computer Science student with a passion for **Data Science** 
 <!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DmytroPalahin)](https://github.com/DmytroPalahin/github-readme-stats) -->
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DmytroPalahin&layout=compact)](https://github.com/DmytroPalahin)
 
-<!-- ## 🏆 LeetCode Stats -->
-<!-- [![LeetCode Stats](https://leetcode-stats.vercel.app/api?username=Dmytro-Palahin&theme=dark)](https://leetcode.com/Dmytro-Palahin/) -->
+<!-- ## 🏆 LeetCode Stats
+
+[![LeetCode Stats](https://leetcode-stats.vercel.app/api?username=Dmytro-Palahin&theme=dark)](https://leetcode.com/Dmytro-Palahin/) -->
 
 ![](https://visitcount.itsvg.in/api?id=DmytroPalahin&icon=0&color=2 "Visitor Count")
 
