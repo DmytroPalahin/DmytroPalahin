@@ -1,9 +1,11 @@
-### Hi there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
+## Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> I'm **Dimitri**
 
-I'm **Dimitri**, a Computer Science student with a passion for **Data Science** and **Data Engineering**.
+A Computer Science student at the **Sup Galilée School** of **Engineering** 🎓  **Paris**, **France** 🌍
+
+- 💼 Open to and interested in new projects and opportunities 🤗
+- 💡 Have passion for **Data Science** 📊 and **Data Engineering** 🧠
 
 <!-- ![](https://github-widgetbox.vercel.app/api/profile?username=DmytroPalahin&data=followers,repositories,stars,commits&theme=nautilus) -->
-![](https://github-widgetbox.vercel.app/api/profile?username=DmytroPalahin&data=repositories,commits&theme=nautilus)
 
 ## 📈 GitHub Stats
 
@@ -11,6 +13,8 @@ I'm **Dimitri**, a Computer Science student with a passion for **Data Science** 
 
 <!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DmytroPalahin)](https://github.com/DmytroPalahin/github-readme-stats) -->
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DmytroPalahin&layout=compact)](https://github.com/DmytroPalahin)
+
+<!-- [![Dimitri's current streak](https://streak-stats.demolab.com/?user=DmytroPalahin&count_private=true&theme=blue-green&title_color=00b3ff)] -->
 
 <!-- ## 🏆 LeetCode Stats
 
@@ -20,11 +24,23 @@ I'm **Dimitri**, a Computer Science student with a passion for **Data Science** 
 
 ## 🤝 Connect with me
 
-<p align="center">
+<!-- <p align="center">
     <a href="https://www.linkedin.com/in/dmytro-palahin/">
         <img align="center" src="./img/linkedin.png" alt="Dmytro Palahin | LinkedIn" width="50px" style="margin-right: 10px;"/>
     </a>
     <a href="mailto:dmytro.palahin@gmail.com">
         <img align="center" src="./img/gmail.png" alt="Dmytro Palahin | Gmail" width="50px" style="margin-left: 10px;"/>
+    </a>
+</p> -->
+
+<p align="center">
+    <a href="mailto:dmytro.palahin@gmail.com" title="Email">
+        <img alt="Email" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="30" align="center"/>
+    </a>
+    <!-- <a href="https://wa.me/+33787325878" title="Whatsapp">
+        <img alt="whatsapp"  src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" height="30" align="center"/>
+    </a> -->
+    <a href="https://www.linkedin.com/in/dmytro-palahin/">
+        <img  alt="LinkedIn" title="LinkedIn" src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="30" align="center"/>
     </a>
 </p>
