@@ -5,8 +5,6 @@ A Computer Science student at the **Sup Galilée School** of **Engineering** �
 - 💼 Open to and interested in new projects and opportunities 🤗
 - 💡 Have passion for **Data Science** 📊 and **Data Engineering** 🧠
 
-<!-- ![](https://github-widgetbox.vercel.app/api/profile?username=DmytroPalahin&data=followers,repositories,stars,commits&theme=nautilus) -->
-
 ## 📈 GitHub Stats
 
 <!-- [![Dimitri's github stats](https://github-readme-stats.vercel.app/api?username=DmytroPalahin)](https://github.com/DmytroPalahin) -->
@@ -20,18 +18,7 @@ A Computer Science student at the **Sup Galilée School** of **Engineering** �
 
 [![LeetCode Stats](https://leetcode-stats.vercel.app/api?username=Dmytro-Palahin&theme=dark)](https://leetcode.com/Dmytro-Palahin/) -->
 
-![](https://visitcount.itsvg.in/api?id=DmytroPalahin&icon=0&color=2 "Visitor Count")
-
 ## 🤝 Connect with me
-
-<!-- <p align="center">
-    <a href="https://www.linkedin.com/in/dmytro-palahin/">
-        <img align="center" src="./img/linkedin.png" alt="Dmytro Palahin | LinkedIn" width="50px" style="margin-right: 10px;"/>
-    </a>
-    <a href="mailto:dmytro.palahin@gmail.com">
-        <img align="center" src="./img/gmail.png" alt="Dmytro Palahin | Gmail" width="50px" style="margin-left: 10px;"/>
-    </a>
-</p> -->
 
 <p align="center">
     <a href="mailto:dmytro.palahin@gmail.com" title="Email">
