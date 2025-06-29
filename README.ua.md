@@ -1,18 +1,18 @@
-<!-- [![English](https://img.shields.io/badge/Language-English-blue)](README.md) -->
+[![English](https://img.shields.io/badge/Language-English-blue)](README.md)
 [![Français](https://img.shields.io/badge/Langue-Français-white)](README.fr.md)
 [![Русский](https://img.shields.io/badge/Язык-Русский-red)](README.ru.md)
-[![Українська](https://img.shields.io/badge/Мова-Українська-yellow)](README.ua.md)
+<!-- [![Українська](https://img.shields.io/badge/Мова-Українська-yellow)](README.ua.md) -->
 
 ---
 
-## Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> I'm **Dima**
+## Привіт <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> Я **Діма**
 
-A Computer Science student at the [**Sup Galilée School**](https://www.sup-galilee.univ-paris13.fr/) of **Engineering** 🎓 **Paris**, **France** 🌍
+Студент факультету Інформатики в [**Школі Інженерії Sup Galilée**](https://www.sup-galilee.univ-paris13.fr/) 🎓 **Париж**, **Франція** 🌍
 
-- 💼 Open to and interested in new projects and opportunities 🤗
-- 💡 Have passion for **Data Science** 📊 and **Data Engineering** 🧠
+- 💼 Відкритий для нових проектів та можливостей 🤗
+- 💡 Захоплююся **Наукою про Дані** 📊 та **Інженерією Даних** 🧠
 
-## 📈 GitHub Stats
+## 📈 Статистика GitHub
 
 <!-- [![Dimitri's github stats](https://github-readme-stats.vercel.app/api?username=DmytroPalahin)](https://github.com/DmytroPalahin) -->
 
@@ -21,11 +21,11 @@ A Computer Science student at the [**Sup Galilée School**](https://www.sup-gali
 
 <!-- [![Dimitri's current streak](https://streak-stats.demolab.com/?user=DmytroPalahin&count_private=true&theme=blue-green&title_color=00b3ff)] -->
 
-<!-- ## 🏆 LeetCode Stats
+<!-- ## 🏆 Статистика LeetCode
 
 [![LeetCode Stats](https://leetcode-stats.vercel.app/api?username=Dmytro-Palahin&theme=dark)](https://leetcode.com/Dmytro-Palahin/) -->
 
-## 🤝 Connect with me
+## 🤝 Зв'яжіться зі мною
 
 <p align="center">
     <a href="mailto:dmytro.palahin@gmail.com" title="Email">
