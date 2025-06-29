@@ -1,5 +1,4 @@
 [![English](https://img.shields.io/badge/Language-English-blue)](README.md)
-<!-- [![Français](https://img.shields.io/badge/Langue-Français-white)](README.fr.md) -->
 [![Русский](https://img.shields.io/badge/Язык-Русский-red)](README.ru.md)
 [![Українська](https://img.shields.io/badge/Мова-Українська-yellow)](README.ua.md)
 
