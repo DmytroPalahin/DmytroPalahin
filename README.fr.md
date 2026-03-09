@@ -16,7 +16,8 @@
 <!-- [![Dimitri's github stats](https://github-readme-stats.vercel.app/api?username=DmytroPalahin)](https://github.com/DmytroPalahin) -->
 
 <!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DmytroPalahin)](https://github.com/DmytroPalahin/github-readme-stats) -->
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DmytroPalahin&layout=compact)](https://github.com/DmytroPalahin)
+
+[![Top Langs](https://gh-readme-stats.vercel.app/api/top-langs/?username=DmytroPalahin&layout=compact&locale=fr)](https://github.com/DmytroPalahin)
 
 <!-- [![Dimitri's current streak](https://streak-stats.demolab.com/?user=DmytroPalahin&count_private=true&theme=blue-green&title_color=00b3ff)] -->
 
@@ -35,5 +36,8 @@
     </a> -->
     <a href="https://www.linkedin.com/in/dmytro-palahin/">
         <img  alt="LinkedIn" title="LinkedIn" src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="30" align="center"/>
+    </a>
+    <a href="https://t.me/dmitry_plhn" title="Telegram">
+        <img alt="Telegram" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" height="30" align="center"/>
     </a>
 </p>
