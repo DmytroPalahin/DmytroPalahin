@@ -25,6 +25,8 @@
 
 [![LeetCode Stats](https://leetcode-stats.vercel.app/api?username=Dmytro-Palahin&theme=dark)](https://leetcode.com/Dmytro-Palahin/) -->
 
+<!-- [![Статистика LeetCode](https://github-readme-leetcode-card.romitsagu.com/Dmytro-Palahin?theme=dark&show=graph,recent)](https://leetcode.com/u/Dmytro-Palahin/) -->
+
 ## 🤝 Связаться со мной
 
 <p align="center">
