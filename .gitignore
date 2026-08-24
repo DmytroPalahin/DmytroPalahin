@@ -3,10 +3,10 @@ conf/**/local/**
 !conf/**/local/.gitkeep
 
 # directories
-# data/**
+data/**
 logs/**
 creds/**
-# except thiers subfolders
+# except subfolders
 !data/**/
 !logs/**/
 !creds/**/
@@ -14,7 +14,7 @@ creds/**
 # keep git
 !.gitkeep
 # github
-.github/
+# .github/
 
 # IDE settings
 .idea/
@@ -28,7 +28,6 @@ out/
 .LSOverride
 Icon
 .Trashes
-*.pem
 
 # windows
 Thumbs.db
@@ -44,7 +43,6 @@ $RECYCLE.BIN/
 .*.swp
 .*.swo
 .*.swn
-
 # emacs
 .#*
 \#*\#
@@ -55,7 +53,6 @@ $RECYCLE.BIN/
 /.emacs.bak
 /.emacs.autosave
 *.elc
-
 # pycharm
 .idea/
 *.iml
@@ -65,6 +62,10 @@ $RECYCLE.BIN/
 *.swp
 *.mtb
 *.db
+
+# c extensions
+*.so
+*.dylib
 
 # python
 __pycache__/
@@ -106,7 +107,6 @@ pip-delete-this-directory.txt
 htmlcov/
 .tox/
 .nox/
-/coverage
 .coverage
 .coverage.*
 .cache
@@ -173,8 +173,6 @@ env.bak/
 venv.bak/
 ENV.bak/
 .conda
-.env*.local
-# !environment.yml
 
 # mkdocs
 /site
@@ -190,6 +188,7 @@ exploration/
 stats.json
 .viz
 env*
+!environement.yml
 post_init_vars
 vars.json
 notebooks/**
@@ -204,7 +203,7 @@ notebooks/**
 .vscode/extensions.json
 .vscode/settings.json
 
-# extensions & dependencies
+# extensions
 out
 dist
 node_modules
@@ -213,18 +212,15 @@ node_modules
 .nodejs
 *.node
 *.npm
-/.pnp
-.pnp.js
 *.yarn
 *.yarn-integrity
 *.yarnrc
-.yarn/install-state.gz
 *.qps-ploc.json
 l10n/bundle.l10n.json
 .nvmrc
 .npmrc
 .prettieignore
-# .prettierrc
+.prettierrc
 prettier.config.js
 pull_request_template.md
 # *.vsix
@@ -243,12 +239,6 @@ pull_request_template.md
 *.toc          
 *.gz           
 *.synctex.gz
-*.pdfsync
-*.glg
-*.glo
-*.gls
-*.ist
-*.lol
 
 # temp
 *.tmp       
@@ -258,50 +248,6 @@ pull_request_template.md
 
 # other
 screenlog*
-# instances
+instances
 labels
 predictions
-
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# vercel
-.vercel
-vendor/
-composer.lock
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
-.turbo
-package-lock.json
-pnpm-lock.yaml
-
-# flex
-# lex.yy.c
-# lex.yy.h
-lex.yy.o
-
-# c extensions
-*.so
-*.dylib
-*.o
-
-# compiled files
-*.zip
-
-# ruff
-.ruff_cache
-
-# julia
-Manifest.toml
-Project.toml
