@@ -1,0 +1,35 @@
+name: snake
+
+# Optional eye-candy: a snake that eats your contribution graph.
+# Disabled by default - uncomment the schedule and the <picture> block in the
+# READMEs if you want it. It's fun, but it's also the single most common
+# profile gimmick, so it cuts both ways.
+
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: "0 5 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        id: snake
+        with:
+          github_user_name: DmytroPalahin
+          outputs: |
+            assets/snake.svg
+            assets/snake-dark.svg?palette=github-dark
+
+      - name: Commit to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: assets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

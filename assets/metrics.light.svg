@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="180" viewBox="0 0 800 180" role="img" aria-label="GitHub metrics placeholder">
+  <rect x="0.5" y="0.5" width="799" height="179" rx="8" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="32" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#1f2328">GitHub metrics</text>
+  <text x="32" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#59636e">Placeholder - this file is replaced automatically by .github/workflows/metrics.yml</text>
+  <text x="32" y="126" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#59636e">Add the METRICS_TOKEN secret, then run the workflow once from the Actions tab.</text>
+</svg>

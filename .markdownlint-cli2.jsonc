@@ -1,0 +1,15 @@
+{
+    "config": {
+        "default": true,
+        // Badges and <picture> blocks need raw HTML.
+        "MD033": false,
+        // The language switcher comes before the H1 on purpose.
+        "MD041": false,
+        // Badge URLs are long; wrapping them breaks them.
+        "MD013": false,
+        // Emphasis-only lines are used as sub-labels in the Stack section.
+        "MD036": false,
+    },
+    "globs": ["**/*.md"],
+    "ignores": ["node_modules/**"],
+}

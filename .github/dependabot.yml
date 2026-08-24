@@ -1,0 +1,11 @@
+version: 2
+updates:
+  # Actions get CVEs and deprecations like any other dependency.
+  # This opens a PR when one of them needs bumping.
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: monthly
+    commit-message:
+      prefix: "chore(ci)"
+    labels: [dependencies]
