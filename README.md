@@ -21,7 +21,7 @@ A Computer Science student at the [**Sup Galilée School**](https://www.sup-gali
 
 <!-- [![Dimitri's current streak](https://streak-stats.demolab.com/?user=DmytroPalahin&count_private=true&theme=blue-green&title_color=00b3ff)] -->
 
-## 🏆 LeetCode Stats
+<!-- ## 🏆 LeetCode Stats -->
 
 <!-- old -->
 <!-- [![LeetCode Stats](https://leetcode-stats.vercel.app/api?username=Dmytro-Palahin&theme=dark)](https://leetcode.com/Dmytro-Palahin/) -->
