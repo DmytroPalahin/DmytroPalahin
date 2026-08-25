@@ -1,4 +1,4 @@
-# Link checker config - https://lychee.cli.rs
+# Link checker config — https://lychee.cli.rs
 max_redirects = 5
 timeout = 20
 retry_wait_time = 2
@@ -10,5 +10,5 @@ exclude = [
   "^https://www\\.linkedin\\.com",
   "^https://t\\.me",
   # TODO: remove this line once uvkit is published publicly.
-#   "^https://github\\.com/DmytroPalahin/uvkit",
+  "^https://github\\.com/DmytroPalahin/uvkit",
 ]

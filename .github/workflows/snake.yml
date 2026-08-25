@@ -1,7 +1,7 @@
 name: snake
 
 # Optional eye-candy: a snake that eats your contribution graph.
-# Disabled by default - uncomment the schedule and the <picture> block in the
+# Disabled by default — uncomment the schedule and the <picture> block in the
 # READMEs if you want it. It's fun, but it's also the single most common
 # profile gimmick, so it cuts both ways.
 

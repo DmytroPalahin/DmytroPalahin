@@ -9,7 +9,7 @@ on:
     branches: [main]
   pull_request:
   schedule:
-    - cron: "0 6 * * 1" # weekly - catches links that rot over time
+    - cron: "0 6 * * 1" # weekly — catches links that rot over time
   workflow_dispatch:
 
 permissions:

@@ -13,9 +13,9 @@ Checks:
 
 from __future__ import annotations
 
-from pathlib import Path
 import re
 import sys
+from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 CANONICAL = "README.md"
@@ -48,7 +48,7 @@ for name in TRANSLATIONS:
     if found != expected_sections:
         errors.append(
             f"{name}: has {found} sections, {CANONICAL} has {expected_sections} "
-            "- a translation is out of date"
+            "— a translation is out of date"
         )
 
 # 3. language switcher is complete in every version
