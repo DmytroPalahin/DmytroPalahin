@@ -391,7 +391,9 @@ def render(lang: str) -> str:
     p.append('<div align="center">\n')
     for badge, target in t["switch"]:
         alt = badge.split("-")[1]
-        p.append(f"[![{alt}](https://img.shields.io/badge/{badge}?style=flat-square)]({target})")
+        p.append(
+            f"[![{alt}](https://img.shields.io/badge/{badge}?style=flat-square)]({target})"
+        )
     p.append("\n</div>\n")
 
     p.append(f"# {t['title']}\n")
@@ -418,7 +420,9 @@ def render(lang: str) -> str:
     p.append("| --- | --- | --- | --- |")
     for proj in PROJECTS:
         name = f"[{proj['name']}]({proj['link']})" if proj["link"] else proj["name"]
-        p.append(f"| {name} | {t['proj'][proj['key']]} | {proj['stack']} | {proj['year']} |")
+        p.append(
+            f"| {name} | {t['proj'][proj['key']]} | {proj['stack']} | {proj['year']} |"
+        )
     p.append("")
     p.append(t["proj_note"])
     p.append("\n---\n")
