@@ -27,7 +27,7 @@ jobs:
             assets/snake-dark.svg?palette=github-dark
 
       - name: Commit to output branch
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: assets
