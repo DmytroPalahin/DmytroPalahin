@@ -8,10 +8,10 @@
 
 # Dimitri — Dmytro Palahin
 
-**Apprenti Data Engineer / MLOps · Paris, France**
+**Data Engineer / MLOps · Paris, France**
 
-Élève ingénieur en dernière année à [Sup Galilée](https://www.sup-galilee.univ-paris13.fr/)
-(Informatique, promotion 2026), avec 3 ans d'alternance en **data engineering,
+Ingénieur diplômé de [Sup Galilée](https://www.sup-galilee.univ-paris13.fr/)
+(informatique, promotion 2026), après 3 ans d'alternance en **data engineering,
 machine learning et MLOps** chez **Société Générale Assurances**.
 
 - 🛠️ Je construis des **pipelines de données, de l'outillage développeur interne et des systèmes ML**
@@ -23,7 +23,7 @@ machine learning et MLOps** chez **Société Générale Assurances**.
 
 ## Expérience
 
-**Data Engineer / MLOps (alternance)** — Société Générale Assurances · La Défense · 09/2023 → aujourd'hui
+**Data Engineer / MLOps (alternance)** — Société Générale Assurances · La Défense · 09/2023 → 08/2026
 
 - Conception d'un **système de migration automatisée SAS → Python** basé sur GitHub Copilot — prompt engineering, Skills réutilisables et contexte persistant (`copilot-instructions.md`), validé par une suite de tests à 2 niveaux *(Python · Polars · DuckDB · AWS S3)*
 - Conception et automatisation d'un **pipeline de migration de 500+ Go de datasets SAS vers AWS S3**, mis à disposition des équipes Data *(Python · fsspec · smbfs · Bash)*
@@ -32,7 +32,19 @@ machine learning et MLOps** chez **Société Générale Assurances**.
 
 ---
 
+## Formation
+
+**Diplôme d’ingénieur en informatique — Sup Galilée · 2023–2026 · Diplôme obtenu**
+
+Classe préparatoire intégrée — Université Sorbonne Paris Nord · 2021–2023
+
+---
+
 ## Stack
+
+**Compétences pratiques**
+
+Pipelines ETL/ELT et ingestion de données · data lakes · qualité et validation des données · tests automatisés · CI/CD · monitoring et reporting · NLP (TF-IDF, LSTM) · prompt engineering et Skills GitHub Copilot réutilisables
 
 **Langages**
 
@@ -41,6 +53,7 @@ machine learning et MLOps** chez **Société Générale Assurances**.
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Julia](https://img.shields.io/badge/Julia-9558B2?style=flat-square&logo=julia&logoColor=white)
 ![Haskell](https://img.shields.io/badge/Haskell-5D4F85?style=flat-square&logo=haskell&logoColor=white)
@@ -61,6 +74,9 @@ machine learning et MLOps** chez **Société Générale Assurances**.
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square)
+![AWS S3](https://img.shields.io/badge/AWS%20S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
 
 **Machine learning**
 
@@ -75,10 +91,15 @@ machine learning et MLOps** chez **Société Générale Assurances**.
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat-square&logo=uv&logoColor=white)
+![Ruff](https://img.shields.io/badge/Ruff-D7FF64?style=flat-square&logo=ruff&logoColor=black)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 
@@ -109,20 +130,10 @@ machine learning et MLOps** chez **Société Générale Assurances**.
 
 ---
 
-## Statistiques GitHub
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/metrics.dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/metrics.light.svg">
-  <img alt="Statistiques GitHub" src="assets/metrics.light.svg" width="100%">
-</picture>
-
----
-
 ## Contact
 
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:dmytro.palahin@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dmytro-palahin/)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/dmitry_plhn)
 
-<sub>Ce profil est généré et vérifié en CI — voir [`.github/workflows`](.github/workflows) et [SETUP.md](SETUP.md).</sub>
+<sub>Ce profil est vérifié en CI — voir [`.github/workflows`](.github/workflows) et [SETUP.md](SETUP.md).</sub>

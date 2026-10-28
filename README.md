@@ -8,10 +8,10 @@
 
 # Dima — Dmytro Palahin
 
-**Data Engineer / MLOps apprentice · Paris, France**
+**Data Engineer / MLOps · Paris, France**
 
-Final-year engineering student at [Sup Galilée](https://www.sup-galilee.univ-paris13.fr/)
-(Computer Science, class of 2026), with 3 years of work-study experience in **data engineering,
+Computer Science engineering graduate from [Sup Galilée](https://www.sup-galilee.univ-paris13.fr/)
+(class of 2026), with 3 years of completed work-study experience in **data engineering,
 machine learning and MLOps** at **Société Générale Assurances**.
 
 - 🛠️ I build **data pipelines, internal developer tooling and ML systems**
@@ -23,16 +23,28 @@ machine learning and MLOps** at **Société Générale Assurances**.
 
 ## Experience
 
-**Data Engineer / MLOps (work-study)** — Société Générale Assurances · La Défense · 09/2023 → present
+**Data Engineer / MLOps (work-study)** — Société Générale Assurances · La Défense · 09/2023 → 08/2026
 
 - Designed an **automated SAS → Python migration system** built on GitHub Copilot — prompt engineering, reusable Skills and persistent context (`copilot-instructions.md`), validated by a two-tier test suite *(Python · Polars · DuckDB · AWS S3)*
 - Designed and automated a **migration pipeline moving 500+ GB of SAS datasets to AWS S3**, making them available to the data teams *(Python · fsspec · smbfs · Bash)*
-- Built and shipped **3 VS Code extensions** for the internal data platform used by **30+ data scientists and analysts**; maintain **35+ extensions** and `code-server` for **40+ users** *(TypeScript · Python · Linux)*
+- Built and shipped **3 VS Code extensions** for the internal data platform used by **30+ data scientists and analysts**; maintained **35+ extensions** and `code-server` for **40+ users** *(TypeScript · Python · Linux)*
 - Built a **monitoring dashboard tracking 10+ operational KPIs** for the Zaion callbot, and analysed **1 year of production data** to identify the main error causes → 3 improvement recommendations *(Apache Superset · PostgreSQL · pandas)*
 
 ---
 
+## Education
+
+**Engineering degree in Computer Science — Sup Galilée · 2023–2026 · Graduated**
+
+Preparatory programme for engineering studies — Université Sorbonne Paris Nord · 2021–2023
+
+---
+
 ## Stack
+
+**Practical skills**
+
+ETL/ELT pipelines and data ingestion · data lakes · data quality and validation · automated testing · CI/CD · monitoring and reporting · NLP (TF-IDF, LSTM) · prompt engineering and reusable GitHub Copilot Skills
 
 **Languages**
 
@@ -41,6 +53,7 @@ machine learning and MLOps** at **Société Générale Assurances**.
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Julia](https://img.shields.io/badge/Julia-9558B2?style=flat-square&logo=julia&logoColor=white)
 ![Haskell](https://img.shields.io/badge/Haskell-5D4F85?style=flat-square&logo=haskell&logoColor=white)
@@ -61,6 +74,9 @@ machine learning and MLOps** at **Société Générale Assurances**.
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square)
+![AWS S3](https://img.shields.io/badge/AWS%20S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
 
 **Machine learning**
 
@@ -75,10 +91,15 @@ machine learning and MLOps** at **Société Générale Assurances**.
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat-square&logo=uv&logoColor=white)
+![Ruff](https://img.shields.io/badge/Ruff-D7FF64?style=flat-square&logo=ruff&logoColor=black)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 
@@ -109,20 +130,10 @@ machine learning and MLOps** at **Société Générale Assurances**.
 
 ---
 
-## GitHub metrics
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/metrics.dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/metrics.light.svg">
-  <img alt="GitHub metrics" src="assets/metrics.light.svg" width="100%">
-</picture>
-
----
-
 ## Contact
 
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:dmytro.palahin@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dmytro-palahin/)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/dmitry_plhn)
 
-<sub>This profile is built and checked in CI — see [`.github/workflows`](.github/workflows) and [SETUP.md](SETUP.md).</sub>
+<sub>This profile is checked in CI — see [`.github/workflows`](.github/workflows) and [SETUP.md](SETUP.md).</sub>

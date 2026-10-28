@@ -28,6 +28,7 @@ STACK = [
             b("C", "A8B9CC", "c", "black"),
             b("C++", "00599C", "cplusplus"),
             b("TypeScript", "3178C6", "typescript"),
+            b("JavaScript", "F7DF1E", "javascript", "black"),
             b("Java", "ED8B00", "openjdk"),
             b("Julia", "9558B2", "julia"),
             b("Haskell", "5D4F85", "haskell"),
@@ -50,6 +51,9 @@ STACK = [
             b("NumPy", "013243", "numpy"),
             b("PostgreSQL", "4169E1", "postgresql"),
             b("MySQL", "4479A1", "mysql"),
+            b("BigQuery", "669DF6", "googlebigquery"),
+            b("Oracle", "F80000"),
+            b("AWS S3", "569A31", "amazons3"),
         ],
     ),
     (
@@ -68,10 +72,15 @@ STACK = [
         [
             b("AWS", "232F3E", "amazonwebservices"),
             b("Docker", "2496ED", "docker"),
+            b("Kubernetes", "326CE5", "kubernetes"),
+            b("Jenkins", "D24939", "jenkins"),
             b("Linux", "FCC624", "linux", "black"),
             b("Git", "F05032", "git"),
             b("GitHub Actions", "2088FF", "githubactions"),
             b("uv", "DE5FE9", "uv"),
+            b("Ruff", "D7FF64", "ruff", "black"),
+            b("pytest", "0A9EDC", "pytest"),
+            b("GitHub Copilot", "000000", "githubcopilot"),
             b("Jira", "0052CC", "jira"),
             b("VS Code", "007ACC", "visualstudiocode"),
         ],
@@ -155,6 +164,11 @@ PROJECTS = [
 # --------------------------------------------------------------------------
 L = {
     "en": {
+        'h_education': 'Education',
+        'degree': '**Engineering degree in Computer Science — Sup Galilée · 2023–2026 · Graduated**',
+        'prepa': 'Preparatory programme for engineering studies — Université Sorbonne Paris Nord · 2021–2023',
+        'h_skills': 'Practical skills',
+        'skills': 'ETL/ELT pipelines and data ingestion · data lakes · data quality and validation · automated testing · CI/CD · monitoring and reporting · NLP (TF-IDF, LSTM) · prompt engineering and reusable GitHub Copilot Skills',
         "file": "README.md",
         "switch": [
             ("Langue-Français-white", "README.fr.md"),
@@ -162,10 +176,10 @@ L = {
             ("Мова-Українська-yellow", "README.ua.md"),
         ],
         "title": "Dima — Dmytro Palahin",
-        "tagline": "Data Engineer / MLOps apprentice · Paris, France",
+        "tagline": "Data Engineer / MLOps · Paris, France",
         "intro": (
-            "Final-year engineering student at [Sup Galilée](https://www.sup-galilee.univ-paris13.fr/)\n"
-            "(Computer Science, class of 2026), with 3 years of work-study experience in **data engineering,\n"
+            "Computer Science engineering graduate from [Sup Galilée](https://www.sup-galilee.univ-paris13.fr/)\n"
+            "(class of 2026), with 3 years of completed work-study experience in **data engineering,\n"
             "machine learning and MLOps** at **Société Générale Assurances**."
         ),
         "bullets": [
@@ -175,11 +189,11 @@ L = {
             "🌍 I work in **English**, **French**, **Ukrainian** and **Russian**",
         ],
         "h_exp": "Experience",
-        "exp_title": "**Data Engineer / MLOps (work-study)** — Société Générale Assurances · La Défense · 09/2023 → present",
+        "exp_title": "**Data Engineer / MLOps (work-study)** — Société Générale Assurances · La Défense · 09/2023 → 08/2026",
         "exp": [
             "Designed an **automated SAS → Python migration system** built on GitHub Copilot — prompt engineering, reusable Skills and persistent context (`copilot-instructions.md`), validated by a two-tier test suite *(Python · Polars · DuckDB · AWS S3)*",
             "Designed and automated a **migration pipeline moving 500+ GB of SAS datasets to AWS S3**, making them available to the data teams *(Python · fsspec · smbfs · Bash)*",
-            "Built and shipped **3 VS Code extensions** for the internal data platform used by **30+ data scientists and analysts**; maintain **35+ extensions** and `code-server` for **40+ users** *(TypeScript · Python · Linux)*",
+            "Built and shipped **3 VS Code extensions** for the internal data platform used by **30+ data scientists and analysts**; maintained **35+ extensions** and `code-server` for **40+ users** *(TypeScript · Python · Linux)*",
             "Built a **monitoring dashboard tracking 10+ operational KPIs** for the Zaion callbot, and analysed **1 year of production data** to identify the main error causes → 3 improvement recommendations *(Apache Superset · PostgreSQL · pandas)*",
         ],
         "h_stack": "Stack",
@@ -203,12 +217,15 @@ L = {
             "paper": "Impulse noise filtering method for video images — *Informatics and Mathematical Methods in Simulation*, Vol. 11 (2021), No. 4",
         },
         "proj_note": "<sub>Some of these are coursework or work projects without a public repository — the ones that do have code are linked.</sub>",
-        "h_metrics": "GitHub metrics",
-        "metrics_alt": "GitHub metrics",
         "h_contact": "Contact",
-        "footer": "<sub>This profile is built and checked in CI — see [`.github/workflows`](.github/workflows) and [SETUP.md](SETUP.md).</sub>",
+        "footer": "<sub>This profile is checked in CI — see [`.github/workflows`](.github/workflows) and [SETUP.md](SETUP.md).</sub>",
     },
     "fr": {
+        'h_education': 'Formation',
+        'degree': '**Diplôme d’ingénieur en informatique — Sup Galilée · 2023–2026 · Diplôme obtenu**',
+        'prepa': 'Classe préparatoire intégrée — Université Sorbonne Paris Nord · 2021–2023',
+        'h_skills': 'Compétences pratiques',
+        'skills': 'Pipelines ETL/ELT et ingestion de données · data lakes · qualité et validation des données · tests automatisés · CI/CD · monitoring et reporting · NLP (TF-IDF, LSTM) · prompt engineering et Skills GitHub Copilot réutilisables',
         "file": "README.fr.md",
         "switch": [
             ("Language-English-blue", "README.md"),
@@ -216,10 +233,10 @@ L = {
             ("Мова-Українська-yellow", "README.ua.md"),
         ],
         "title": "Dimitri — Dmytro Palahin",
-        "tagline": "Apprenti Data Engineer / MLOps · Paris, France",
+        "tagline": "Data Engineer / MLOps · Paris, France",
         "intro": (
-            "Élève ingénieur en dernière année à [Sup Galilée](https://www.sup-galilee.univ-paris13.fr/)\n"
-            "(Informatique, promotion 2026), avec 3 ans d'alternance en **data engineering,\n"
+            "Ingénieur diplômé de [Sup Galilée](https://www.sup-galilee.univ-paris13.fr/)\n"
+            "(informatique, promotion 2026), après 3 ans d'alternance en **data engineering,\n"
             "machine learning et MLOps** chez **Société Générale Assurances**."
         ),
         "bullets": [
@@ -229,7 +246,7 @@ L = {
             "🌍 Je travaille en **français**, **anglais**, **ukrainien** et **russe**",
         ],
         "h_exp": "Expérience",
-        "exp_title": "**Data Engineer / MLOps (alternance)** — Société Générale Assurances · La Défense · 09/2023 → aujourd'hui",
+        "exp_title": "**Data Engineer / MLOps (alternance)** — Société Générale Assurances · La Défense · 09/2023 → 08/2026",
         "exp": [
             "Conception d'un **système de migration automatisée SAS → Python** basé sur GitHub Copilot — prompt engineering, Skills réutilisables et contexte persistant (`copilot-instructions.md`), validé par une suite de tests à 2 niveaux *(Python · Polars · DuckDB · AWS S3)*",
             "Conception et automatisation d'un **pipeline de migration de 500+ Go de datasets SAS vers AWS S3**, mis à disposition des équipes Data *(Python · fsspec · smbfs · Bash)*",
@@ -257,12 +274,15 @@ L = {
             "paper": "Méthode de filtrage du bruit impulsionnel dans les images vidéo — *Informatics and Mathematical Methods in Simulation*, Vol. 11 (2021), No. 4",
         },
         "proj_note": "<sub>Certains sont des projets académiques ou professionnels sans dépôt public — ceux qui ont du code sont liés.</sub>",
-        "h_metrics": "Statistiques GitHub",
-        "metrics_alt": "Statistiques GitHub",
         "h_contact": "Contact",
-        "footer": "<sub>Ce profil est généré et vérifié en CI — voir [`.github/workflows`](.github/workflows) et [SETUP.md](SETUP.md).</sub>",
+        "footer": "<sub>Ce profil est vérifié en CI — voir [`.github/workflows`](.github/workflows) et [SETUP.md](SETUP.md).</sub>",
     },
     "ru": {
+        'h_education': 'Образование',
+        'degree': '**Диплом инженера по информатике — Sup Galilée · 2023–2026 · Обучение завершено**',
+        'prepa': 'Подготовительная программа инженерной школы — Université Sorbonne Paris Nord · 2021–2023',
+        'h_skills': 'Практические навыки',
+        'skills': 'ETL/ELT-пайплайны и загрузка данных · data lakes · качество и валидация данных · автоматизированное тестирование · CI/CD · мониторинг и отчётность · NLP (TF-IDF, LSTM) · prompt engineering и переиспользуемые GitHub Copilot Skills',
         "file": "README.ru.md",
         "switch": [
             ("Language-English-blue", "README.md"),
@@ -270,10 +290,10 @@ L = {
             ("Мова-Українська-yellow", "README.ua.md"),
         ],
         "title": "Дима — Dmytro Palahin",
-        "tagline": "Data Engineer / MLOps, альтернанс · Париж, Франция",
+        "tagline": "Data Engineer / MLOps · Париж, Франция",
         "intro": (
-            "Студент выпускного курса инженерной школы [Sup Galilée](https://www.sup-galilee.univ-paris13.fr/)\n"
-            "(информатика, выпуск 2026), 3 года по альтернансу в **data engineering,\n"
+            "Выпускник инженерной школы [Sup Galilée](https://www.sup-galilee.univ-paris13.fr/)\n"
+            "(диплом инженера по информатике, 2026). Завершил 3 года альтернанса в **data engineering,\n"
             "machine learning и MLOps** в **Société Générale Assurances**."
         ),
         "bullets": [
@@ -283,11 +303,11 @@ L = {
             "🌍 Работаю на **русском**, **французском**, **английском** и **украинском**",
         ],
         "h_exp": "Опыт работы",
-        "exp_title": "**Data Engineer / MLOps (альтернанс)** — Société Générale Assurances · La Défense · 09/2023 → настоящее время",
+        "exp_title": "**Data Engineer / MLOps (альтернанс)** — Société Générale Assurances · La Défense · 09/2023 → 08/2026",
         "exp": [
             "Спроектировал **систему автоматической миграции SAS → Python** на базе GitHub Copilot — prompt engineering, переиспользуемые Skills и постоянный контекст (`copilot-instructions.md`), с двухуровневым набором тестов *(Python · Polars · DuckDB · AWS S3)*",
             "Спроектировал и автоматизировал **пайплайн переноса 500+ ГБ SAS-датасетов в AWS S3** и открыл к ним доступ дата-командам *(Python · fsspec · smbfs · Bash)*",
-            "Разработал и выкатил **3 расширения для VS Code** для внутренней Data-платформы, которыми пользуются **30+ дата-сайентистов и аналитиков**; поддерживаю **35+ расширений** и `code-server` для **40+ пользователей** *(TypeScript · Python · Linux)*",
+            "Разработал и выкатил **3 расширения для VS Code** для внутренней Data-платформы, которыми пользуются **30+ дата-сайентистов и аналитиков**; поддерживал **35+ расширений** и `code-server` для **40+ пользователей** *(TypeScript · Python · Linux)*",
             "Собрал **дашборд мониторинга с 10+ операционными KPI** для колл-бота Zaion и проанализировал **год продакшн-данных**, выявив основные причины ошибок → 3 рекомендации по улучшению *(Apache Superset · PostgreSQL · pandas)*",
         ],
         "h_stack": "Стек",
@@ -311,12 +331,15 @@ L = {
             "paper": "Метод фильтрации импульсного шума на видеоизображениях — *Informatics and Mathematical Methods in Simulation*, Vol. 11 (2021), No. 4",
         },
         "proj_note": "<sub>Часть работ — учебные или рабочие проекты без публичного репозитория; ссылки стоят там, где код открыт.</sub>",
-        "h_metrics": "Статистика GitHub",
-        "metrics_alt": "Статистика GitHub",
         "h_contact": "Контакты",
-        "footer": "<sub>Профиль собирается и проверяется в CI — см. [`.github/workflows`](.github/workflows) и [SETUP.md](SETUP.md).</sub>",
+        "footer": "<sub>Профиль проверяется в CI — см. [`.github/workflows`](.github/workflows) и [SETUP.md](SETUP.md).</sub>",
     },
     "ua": {
+        'h_education': 'Освіта',
+        'degree': '**Диплом інженера з інформатики — Sup Galilée · 2023–2026 · Навчання завершено**',
+        'prepa': 'Підготовча програма інженерної школи — Université Sorbonne Paris Nord · 2021–2023',
+        'h_skills': 'Практичні навички',
+        'skills': 'ETL/ELT-пайплайни та завантаження даних · data lakes · якість і валідація даних · автоматизоване тестування · CI/CD · моніторинг і звітність · NLP (TF-IDF, LSTM) · prompt engineering та багаторазові GitHub Copilot Skills',
         "file": "README.ua.md",
         "switch": [
             ("Language-English-blue", "README.md"),
@@ -324,10 +347,10 @@ L = {
             ("Язык-Русский-red", "README.ru.md"),
         ],
         "title": "Діма — Dmytro Palahin",
-        "tagline": "Data Engineer / MLOps, апprentice · Париж, Франція",
+        "tagline": "Data Engineer / MLOps · Париж, Франція",
         "intro": (
-            "Студент випускного курсу інженерної школи [Sup Galilée](https://www.sup-galilee.univ-paris13.fr/)\n"
-            "(інформатика, випуск 2026), 3 роки навчання за контрактом у **data engineering,\n"
+            "Випускник інженерної школи [Sup Galilée](https://www.sup-galilee.univ-paris13.fr/)\n"
+            "(диплом інженера з інформатики, 2026). Завершив 3 роки дуального навчання у **data engineering,\n"
             "machine learning та MLOps** у **Société Générale Assurances**."
         ),
         "bullets": [
@@ -337,11 +360,11 @@ L = {
             "🌍 Працюю **українською**, **французькою**, **англійською** та **російською**",
         ],
         "h_exp": "Досвід роботи",
-        "exp_title": "**Data Engineer / MLOps (навчання за контрактом)** — Société Générale Assurances · La Défense · 09/2023 → дотепер",
+        "exp_title": "**Data Engineer / MLOps (дуальне навчання)** — Société Générale Assurances · La Défense · 09/2023 → 08/2026",
         "exp": [
             "Спроєктував **систему автоматичної міграції SAS → Python** на базі GitHub Copilot — prompt engineering, багаторазові Skills і постійний контекст (`copilot-instructions.md`), з дворівневим набором тестів *(Python · Polars · DuckDB · AWS S3)*",
             "Спроєктував і автоматизував **пайплайн перенесення 500+ ГБ SAS-датасетів до AWS S3** та відкрив до них доступ дата-командам *(Python · fsspec · smbfs · Bash)*",
-            "Розробив і випустив **3 розширення для VS Code** для внутрішньої Data-платформи, якими користуються **30+ дата-сайєнтистів і аналітиків**; підтримую **35+ розширень** і `code-server` для **40+ користувачів** *(TypeScript · Python · Linux)*",
+            "Розробив і випустив **3 розширення для VS Code** для внутрішньої Data-платформи, якими користуються **30+ дата-сайєнтистів і аналітиків**; підтримував **35+ розширень** і `code-server` для **40+ користувачів** *(TypeScript · Python · Linux)*",
             "Зібрав **дашборд моніторингу з 10+ операційними KPI** для колбота Zaion і проаналізував **рік продакшн-даних**, визначивши основні причини помилок → 3 рекомендації щодо покращення *(Apache Superset · PostgreSQL · pandas)*",
         ],
         "h_stack": "Стек",
@@ -365,14 +388,11 @@ L = {
             "paper": "Метод фільтрації імпульсного шуму на відеозображеннях — *Informatics and Mathematical Methods in Simulation*, Vol. 11 (2021), No. 4",
         },
         "proj_note": "<sub>Частина робіт — навчальні або робочі проєкти без публічного репозиторію; посилання стоять там, де код відкритий.</sub>",
-        "h_metrics": "Статистика GitHub",
-        "metrics_alt": "Статистика GitHub",
         "h_contact": "Контакти",
-        "footer": "<sub>Профіль збирається та перевіряється в CI — див. [`.github/workflows`](.github/workflows) і [SETUP.md](SETUP.md).</sub>",
+        "footer": "<sub>Профіль перевіряється в CI — див. [`.github/workflows`](.github/workflows) і [SETUP.md](SETUP.md).</sub>",
     },
 }
 
-L["ua"]["tagline"] = "Data Engineer / MLOps, навчання за контрактом · Париж, Франція"
 
 CONTACT = (
     "[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)]"
@@ -407,7 +427,14 @@ def render(lang: str) -> str:
     p.extend(f"- {x}" for x in t["exp"])
     p.append("\n---\n")
 
+    p.append(f"## {t['h_education']}\n")
+    p.append(t["degree"] + "\n")
+    p.append(t["prepa"])
+    p.append("\n---\n")
+
     p.append(f"## {t['h_stack']}\n")
+    p.append(f"**{t['h_skills']}**\n")
+    p.append(t["skills"] + "\n")
     for key, badges in STACK:
         p.append(f"**{t['stack_labels'][key]}**\n")
         p.append("\n".join(badges))
@@ -426,16 +453,6 @@ def render(lang: str) -> str:
     p.append("")
     p.append(t["proj_note"])
     p.append("\n---\n")
-
-    p.append(f"## {t['h_metrics']}\n")
-    p.append(
-        "<picture>\n"
-        '  <source media="(prefers-color-scheme: dark)" srcset="assets/metrics.dark.svg">\n'
-        '  <source media="(prefers-color-scheme: light)" srcset="assets/metrics.light.svg">\n'
-        f'  <img alt="{t["metrics_alt"]}" src="assets/metrics.light.svg" width="100%">\n'
-        "</picture>\n"
-    )
-    p.append("---\n")
 
     p.append(f"## {t['h_contact']}\n")
     p.append(CONTACT + "\n")

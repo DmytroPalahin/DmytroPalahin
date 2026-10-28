@@ -8,10 +8,10 @@
 
 # Діма — Dmytro Palahin
 
-**Data Engineer / MLOps, навчання за контрактом · Париж, Франція**
+**Data Engineer / MLOps · Париж, Франція**
 
-Студент випускного курсу інженерної школи [Sup Galilée](https://www.sup-galilee.univ-paris13.fr/)
-(інформатика, випуск 2026), 3 роки навчання за контрактом у **data engineering,
+Випускник інженерної школи [Sup Galilée](https://www.sup-galilee.univ-paris13.fr/)
+(диплом інженера з інформатики, 2026). Завершив 3 роки дуального навчання у **data engineering,
 machine learning та MLOps** у **Société Générale Assurances**.
 
 - 🛠️ Будую **дата-пайплайни, внутрішні інструменти для розробників і ML-системи**
@@ -23,16 +23,28 @@ machine learning та MLOps** у **Société Générale Assurances**.
 
 ## Досвід роботи
 
-**Data Engineer / MLOps (навчання за контрактом)** — Société Générale Assurances · La Défense · 09/2023 → дотепер
+**Data Engineer / MLOps (дуальне навчання)** — Société Générale Assurances · La Défense · 09/2023 → 08/2026
 
 - Спроєктував **систему автоматичної міграції SAS → Python** на базі GitHub Copilot — prompt engineering, багаторазові Skills і постійний контекст (`copilot-instructions.md`), з дворівневим набором тестів *(Python · Polars · DuckDB · AWS S3)*
 - Спроєктував і автоматизував **пайплайн перенесення 500+ ГБ SAS-датасетів до AWS S3** та відкрив до них доступ дата-командам *(Python · fsspec · smbfs · Bash)*
-- Розробив і випустив **3 розширення для VS Code** для внутрішньої Data-платформи, якими користуються **30+ дата-сайєнтистів і аналітиків**; підтримую **35+ розширень** і `code-server` для **40+ користувачів** *(TypeScript · Python · Linux)*
+- Розробив і випустив **3 розширення для VS Code** для внутрішньої Data-платформи, якими користуються **30+ дата-сайєнтистів і аналітиків**; підтримував **35+ розширень** і `code-server` для **40+ користувачів** *(TypeScript · Python · Linux)*
 - Зібрав **дашборд моніторингу з 10+ операційними KPI** для колбота Zaion і проаналізував **рік продакшн-даних**, визначивши основні причини помилок → 3 рекомендації щодо покращення *(Apache Superset · PostgreSQL · pandas)*
 
 ---
 
+## Освіта
+
+**Диплом інженера з інформатики — Sup Galilée · 2023–2026 · Навчання завершено**
+
+Підготовча програма інженерної школи — Université Sorbonne Paris Nord · 2021–2023
+
+---
+
 ## Стек
+
+**Практичні навички**
+
+ETL/ELT-пайплайни та завантаження даних · data lakes · якість і валідація даних · автоматизоване тестування · CI/CD · моніторинг і звітність · NLP (TF-IDF, LSTM) · prompt engineering та багаторазові GitHub Copilot Skills
 
 **Мови**
 
@@ -41,6 +53,7 @@ machine learning та MLOps** у **Société Générale Assurances**.
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Julia](https://img.shields.io/badge/Julia-9558B2?style=flat-square&logo=julia&logoColor=white)
 ![Haskell](https://img.shields.io/badge/Haskell-5D4F85?style=flat-square&logo=haskell&logoColor=white)
@@ -61,6 +74,9 @@ machine learning та MLOps** у **Société Générale Assurances**.
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square)
+![AWS S3](https://img.shields.io/badge/AWS%20S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
 
 **Machine learning**
 
@@ -75,10 +91,15 @@ machine learning та MLOps** у **Société Générale Assurances**.
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat-square&logo=uv&logoColor=white)
+![Ruff](https://img.shields.io/badge/Ruff-D7FF64?style=flat-square&logo=ruff&logoColor=black)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 
@@ -109,20 +130,10 @@ machine learning та MLOps** у **Société Générale Assurances**.
 
 ---
 
-## Статистика GitHub
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/metrics.dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/metrics.light.svg">
-  <img alt="Статистика GitHub" src="assets/metrics.light.svg" width="100%">
-</picture>
-
----
-
 ## Контакти
 
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:dmytro.palahin@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dmytro-palahin/)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/dmitry_plhn)
 
-<sub>Профіль збирається та перевіряється в CI — див. [`.github/workflows`](.github/workflows) і [SETUP.md](SETUP.md).</sub>
+<sub>Профіль перевіряється в CI — див. [`.github/workflows`](.github/workflows) і [SETUP.md](SETUP.md).</sub>
